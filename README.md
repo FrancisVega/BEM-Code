@@ -70,5 +70,4 @@ o
 <ul class="nav">
   <li class="nav__item"></li>
 </ul>
-</div>
 ```
