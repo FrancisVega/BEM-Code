@@ -63,25 +63,29 @@ Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un 
 
 :see_no_evil:
 ```html
+<!-- Nav Block  -->
 <ul class="nav nav__list">
   <li class="nav__item"></li>
 </ul>
+<!-- / Nav Block  -->
 ```
 
 :smiley:
 ```html
+<!-- Nav Block  -->
 <div class="nav">
   <ul class="nav__list">
     <li class="nav__item"></li>
   </ul>
 </div>
+<!-- / Nav Block  -->
 ```
-
-o
 
 :smiley:
 ```html
+<!-- Nav Block  -->
 <ul class="nav">
   <li class="nav__item"></li>
 </ul>
+<!-- / Nav Block  -->
 ```
