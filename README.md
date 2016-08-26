@@ -50,7 +50,7 @@ BEM OK - BEM KO
 :see_no_evil:
 ```html
 <ul class="nav nav__list">
-  ...
+  <li class="nav__item"></li>
 </ul>
 ```
 
@@ -58,7 +58,17 @@ BEM OK - BEM KO
 ```html
 <div class="nav">
   <ul class="nav__list">
-    ...
+    <li class="nav__item"></li>
   </ul>
+</div>
+```
+
+o
+
+:smiley:
+```html
+<ul class="nav">
+  <li class="nav__item"></li>
+</ul>
 </div>
 ```
