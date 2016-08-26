@@ -1,10 +1,7 @@
 # BEM-Code
-BEM OK - BEM KO
-
-### A continuación hay ejemplo de buenas vs malas prácticas en BEM
+Ejemplos de buenas vs malas prácticas en BEM
 
 #### No más de un elementos por bloque
-
 
 :see_no_evil:
 ```html
