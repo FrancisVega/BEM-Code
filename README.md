@@ -1,7 +1,9 @@
 # BEM-Code
 Ejemplos de buenas vs malas prácticas en BEM
 
-#### No más de un elementos por bloque
+### No se pueden tener elementos anidados
+
+Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un nivel de elemento por bloque. Si nos cuesta mucho o ciertamente vemos que queda muy raro y forzado es posible que ese elemento que quieras añadir sea realmente otro bloque.
 
 :see_no_evil:
 ```html
