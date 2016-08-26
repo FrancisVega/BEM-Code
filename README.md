@@ -1,17 +1,22 @@
 # BEM-Code
 Ejemplos de buenas vs malas prácticas en BEM
 
-### No se pueden tener elementos anidados
+### Elementos anidados.
 
 Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un nivel de elemento por bloque. Si nos cuesta mucho o ciertamente vemos que queda muy raro y forzado es posible que ese elemento que quieras añadir sea realmente otro bloque.
 
 :see_no_evil:
 ```html
+<!-- Recipe Block -->
 <div class="recipe">
+
+  <!-- Header -->
   <div class="recipe__header">
-    <div class="recipe__header__title">Tortilla de patatas.</div>
-    <div class="recipe__header__subtitle">Rápida, fácil y sin utilizar huevo.</div>
+    <div class="recipe__header__title">...</div>
+    <div class="recipe__header__subtitle">...</div>
   </div>
+  
+  <!-- Content -->
   <div class="recipe__content">
     <div class="recipe__content__section">
       <div class="recipe__content__section__heading">
@@ -21,15 +26,23 @@ Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un 
       </div>
     </div>
   </div>
+  
 </div>
+<!-- / Recipe Block -->
 ```
+
 :smiley:
 ```html
+<!-- Recipe Block -->
 <div class="recipe">
+
+  <!-- Header -->
   <div class="recipe__header">
-    <div class="recipe__title">Tortilla de patatas.</div>
-    <div class="recipe__subtitle">Rápida, fácil y sin utilizar huevo.</div>
+    <div class="recipe__title">...</div>
+    <div class="recipe__subtitle">...</div>
   </div>
+  
+  <!-- Content -->  
   <div class="recipe__content">
     <div class="recipe__section">
       <div class="recipe__heading">
@@ -39,7 +52,9 @@ Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un 
       </div>
     </div>
   </div>
+  
 </div>
+<!-- / Recipe Block -->
 ```
 
 
