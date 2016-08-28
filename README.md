@@ -41,8 +41,8 @@ Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un 
     <div class="recipe__title">...</div>
     <div class="recipe__subtitle">...</div>
   </div>
-  
-  <!-- Content -->  
+
+  <!-- Content -->
   <div class="recipe__content">
     <div class="recipe__section">
       <div class="recipe__heading">
@@ -52,7 +52,7 @@ Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un 
       </div>
     </div>
   </div>
-  
+
 </div>
 <!-- / Recipe Block -->
 ```
@@ -92,4 +92,3 @@ Debemos buscar la forma de nombrar las clases de tal forma que solo tengamos un 
 
 
 ### Modificadores
-
