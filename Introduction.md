@@ -1,4 +1,4 @@
-# Tips
+# Introducción
 
 ## Bloques
 
