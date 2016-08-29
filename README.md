@@ -1,5 +1,5 @@
-# BEM-Code
-Ejemplos de buenas vs malas prácticas en BEM
+# BEM Code Style
+Guía rápida de buenas prácticas con BEM
 
 [Generics](Generics.md)
 
