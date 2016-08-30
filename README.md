@@ -1,6 +1,6 @@
 BEM Code Style
 ==============
-Guía rápida de buenas prácticas con BEM
+Guía sencilla de buenas prácticas con BEM
 
 ###Contenido
 * [Introduction][1]
