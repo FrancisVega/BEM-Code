@@ -1,8 +1,8 @@
-# Introducción
+#Introducción
 
-## Bloques
+##Bloques
 
-### Nombres
+###Nombres
 El nombre del 'block' describe su propósito y no su apariencia.
 Por ejemplo.
 
@@ -14,13 +14,13 @@ Por ejemplo.
 <div class="red-text"><div>
 ```
 
-### Geometría
+###Geometría
 El bloque no debe afectar a su entorno (externo), esto quiere decir que no debe llevar márgenes, ancho fijo o posicione absoluta.
 
-### Clases
+###Clases
 El bloque está definido por una clase, no se puede definir un bloque con un ID o haciéndo referencia a la etiqueta html directamente.
 
-### Anindado o sub-bloques
+###Anindado o sub-bloques
 Los bloques se pueden anidar sin límite.
 ```html
 <!-- `header` block -->
@@ -33,12 +33,12 @@ Los bloques se pueden anidar sin límite.
 </header>
 ```
 
-## Elementos
+##Elementos
 
-### Nombres
+###Nombres
 El nombre del bloque describe su propósito y no su apariencia.
 
-### Anidado
+###Anidado
 Los elementos pueden estar unos dentro de otros sin límite, recordando que un elemento siempre es parte de un bloque y no de otro elemento.
 
 ```html
@@ -61,9 +61,9 @@ Los elementos pueden estar unos dentro de otros sin límite, recordando que un e
 </form>
 ```
 
-## Modificadores
+##Modificadores
 
-### Nombres
+###Nombres
 El nombre del modificador describe su apariencia o estado siempre intentando describir el propósito. Mejor button--error que button--red
 
 Los modificadores no pueden usarse de forma aislada siempre tiene que ir junto al bloque o al elemento que modifican. Los modificadores deben MODIFICAR la apariencia, el comportamiento o el estado de la entidad (bloque o elemento) y no reemplazarla.
@@ -96,7 +96,7 @@ Key/value:
 .button--sizeSmall {}
 ```
 
-## Mix
+##Mix
 
 Los mix son una técnica que permite utilizar distintas entidades de BEM (bloques o elementos) en una misma etiqueta HTML.
 
