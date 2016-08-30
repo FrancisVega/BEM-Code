@@ -11,8 +11,10 @@ Guía sencilla de buenas prácticas con BEM
 
 ###Links interesantes
 
-* [BEM with Emmet][10]
-* [Google Developers. Reducción del alcance y la complejidad de los cálculos de estilo][11]
+* [Awesome BEM][10]
+* [BEM with Emmet][11]
+* [Google Developers. Reducción del alcance y la complejidad de los cálculos de estilo][12]
 
-[10]: https://pawelgrzybek.com/bem-with-emmet/
-[11]: https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations#use-block-element-modifier
+[10]: https://github.com/sturobson/BEM-resources
+[11]: https://pawelgrzybek.com/bem-with-emmet/
+[12]: https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations#use-block-element-modifier
