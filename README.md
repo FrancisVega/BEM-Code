@@ -5,9 +5,11 @@ Guía sencilla de buenas prácticas con BEM
 ###Contenido
 * [Introduction][1]
 * [Generics][2]
+* [Tips][3]
 
 [1]: Introduction.md
 [2]: Generics.md
+[3]: tips.md
 
 ###Links interesantes
 
