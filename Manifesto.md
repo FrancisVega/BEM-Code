@@ -5,7 +5,7 @@ Un componente siempre tiene que ser ["componible"](http://dle.rae.es/?id=A2BkG2M
 Usaremos componentes de alto nivel (grids) para encajar el componente en un contexto específico.
 
 ## Dirección del margen
-Los márgenes siempre deberían ir en una misma dirección:
+Los márgenes siempre deberán ir en una misma dirección:
 - **margin-left** para "mover" horizontalmente un elemento
 - **margin-bottom** para "mover" verticalmente un elemento
 
