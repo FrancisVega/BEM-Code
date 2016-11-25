@@ -1,6 +1,6 @@
-BEM Code Style
+CSS Components Code
 ==============
-Guía sencilla de buenas prácticas con BEM
+Guía sencilla de buenas prácticas para crear componentes web (html/css/js)
 
 ###Contenido
 * [Introduction][1]
