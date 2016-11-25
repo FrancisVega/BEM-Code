@@ -1,4 +1,4 @@
-# CSS
+# Component Manifesto
 
 ## Componible
 Un componente siempre tiene que ser ["componible"](http://dle.rae.es/?id=A2BkG2M) y para ello debe estar libre de las propiedades: width, position, transform, float y margin.
