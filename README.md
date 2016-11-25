@@ -4,12 +4,14 @@ Guía sencilla de buenas prácticas para crear componentes web (html/css/js)
 
 ###Contenido
 * [Introduction][1]
+* [Manifesto][4]
 * [Generics][2]
 * [Tips][3]
 
 [1]: Introduction.md
 [2]: Generics.md
 [3]: tips.md
+[4]: Manifesto.md
 
 ###Links interesantes
 
