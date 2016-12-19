@@ -101,6 +101,7 @@ Key/value:
 Los mix son una técnica que permite utilizar distintas entidades de BEM (bloques o elementos) en una misma etiqueta HTML.
 
 En este caso estamos mezclando el estilo y comportamiento de logo con header__logo así podemos mantener la hoja de estilos de header mucho más clara.
+
 ```html
 <div class="header">
     <div class="header__logo logo">...</div>
@@ -111,5 +112,28 @@ En este caso estamos mezclando el estilo y comportamiento de logo con header__lo
 /* con eso para "acceder" a logo desde header tendríamos */
 .header__logo {}
 /* en lugar de */
+.header .logo {}
+```
+
+Update: Para poder usar correctamente BEM MIX hay que tener controls sobre el orden de importacin de las distntas hojas de estilos. Esto suele ser complicado de gestionar manualmente y a menos que se tenga herramienta que disponga de ello, en adelante es mejor no usar BEM Mixes.
+
+En el caso que se quiera seguir usando los mixes para un futuro, se puede implementar así:
+
+```html
+<div class="header">
+    <div class="header__logo logo">...</div>
+</div>
+```
+
+```css
+/* con eso para "acceder" a logo desde header tendríamos */
+.header__logo.logo {}
+```
+
+O directamente obviando por completo el uso de los BEM MIXES
+
+
+```css
+/* con eso para "acceder" a logo desde header tendríamos */
 .header .logo {}
 ```
