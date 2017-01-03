@@ -1,5 +1,34 @@
 #Introducción
 
+## Nomenclatura (testing)
+
+```css
+/* Utility */
+.u-utilityName {}
+.u-uppercase {}
+
+/* Component */
+.ComponentName {}
+.Button {}
+
+/* Component modifier */
+.ComponentName--modifierName {}
+.Button--outlined {}
+
+/* Component element */
+.ComponentName__elementName {}
+.Button__text {}
+
+/* Component element modifier */
+.ComponentName__elementName--modifierName {}
+.Button__text--featured {}
+
+/* Component state (scoped to component) */
+.ComponentName.is-stateOfComponent {}
+.Button.is-disabled {}
+.Button.is-enabled {}
+```
+
 ##Bloques
 
 ###Nombres
