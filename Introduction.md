@@ -1,29 +1,29 @@
 #Introducción
 
-## Nomenclatura (testing)
+## Nomenclatura de clases BEM y estados
 
 ```css
-/* Utility */
+/* Clases de utilidad */
 .u-utilityName {}
 .u-uppercase {}
 
-/* Component */
-.ComponentName {}
+/* Bloque */
+.BlockName {}
 .Button {}
 
-/* Component modifier */
-.ComponentName--modifierName {}
+/* Modificador de un bloque */
+.BlockName--modifierName {}
 .Button--outlined {}
 
-/* Component element */
-.ComponentName__elementName {}
+/* Elemento */
+.BlockName__elementName {}
 .Button__text {}
 
-/* Component element modifier */
-.ComponentName__elementName--modifierName {}
+/* Modificador de un elemento */
+.BlockName__elementName--modifierName {}
 .Button__text--featured {}
 
-/* Component state (scoped to component) */
+/* Estado de un componente */
 .ComponentName.is-stateOfComponent {}
 .Button.is-disabled {}
 .Button.is-enabled {}
