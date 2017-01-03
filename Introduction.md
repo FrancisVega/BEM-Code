@@ -1,6 +1,6 @@
 #Introducción
 
-## Nomenclatura de clases BEM y estados
+## Nomenclatura de clases
 
 ```css
 /* Clases de utilidad */
@@ -24,7 +24,7 @@
 .Button__text--featured {}
 
 /* Estado de un componente */
-.ComponentName.is-stateOfComponent {}
+.BlockName.is-stateOfComponent {}
 .Button.is-disabled {}
 .Button.is-enabled {}
 ```
